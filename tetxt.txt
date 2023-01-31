@@ -1,0 +1,2 @@
+database=satu2886_tesdatabase
+password=Tiram_1993
