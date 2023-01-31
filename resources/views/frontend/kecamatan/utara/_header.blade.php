@@ -32,16 +32,13 @@
             <ul class="nav-main">
                 <li class="nav-main-item">
                     <a class="nav-main-link {{ \Request::route()->getName() == 'kec.utara' ? 'active' : '' }}"
-                        href="{{ $routekota }}">
+                        href="{{ route('kec.utara') }}">
                         <i class="nav-main-link-icon fa fa-compass"></i>
-                        <span class="nav-main-link-name">Data Kota</span>
+                        <span class="nav-main-link-name">Home</span>
                     </a>
                 </li>
 
                 <li class="nav-main-heading">More</li>
-
-
-
 
                 <li class="nav-main-item">
                     <a class="nav-main-link nav-main-link-submenu" data-toggle="submenu" aria-haspopup="true"
@@ -292,14 +289,12 @@
             <!-- Menu -->
             <ul class="nav-main nav-main-horizontal nav-main-hover d-none d-lg-block ms-3">
                 <li class="nav-main-item">
-                    <a class="nav-main-link {{ \Request::route()->getName() == 'Kota.index' ? 'active' : '' }}"
-                        href="{{ $routekota }}">
+                    <a class="nav-main-link {{ \Request::route()->getName() == 'kec.utara' ? 'active' : '' }}"
+                        href="{{ route('kec.utara') }}">
                         <i class="nav-main-link-icon fa fa-compass"></i>
-                        <span class="nav-main-link-name">Data Kota</span>
+                        <span class="nav-main-link-name">Home</span>
                     </a>
                 </li>
-
-
                 <li class="nav-main-heading">More</li>
 
 
@@ -545,14 +540,14 @@
             <!-- Notifications Dropdown -->
 
 
-            <div class="d-inline-block">
+            {{-- <div class="d-inline-block">
 
                 <a href="{{ route('adkec.utara') }}" type="button" class="btn btn-alt-secondary"
                     id="page-header-notifications-dropdown">
                     Dashboard
                 </a>
 
-            </div>
+            </div> --}}
 
             <!-- END Notifications Dropdown -->
 

@@ -24,7 +24,7 @@
                         <p class="text-uppercase fw-semibold text-center mt-2 mb-4">
                             Desa / Kelurahan Kecamatan {{ $name }}
                         </p>
-                        <a class="block block-rounded block-link-rotate bg-body-light mb-2" href="{{ $public_desa }}">
+                        <a class="block block-rounded block-link-rotate bg-body-light mb-2" href="javascript:void(0)">
                             <div
                                 class="block-content block-content-sm block-content-full d-flex align-items-center justify-content-between">
                                 <div class="me-3">
